@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Haldi</title>
+  <title>Contact</title>
   <link rel="stylesheet" href="bootstrap.min.css">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
@@ -47,45 +47,70 @@
         </nav>
   </header>
   <!-- End header -->
-<!-- Start Haldi -->
-<section class="vh-80" >
-	<div id="story" class="story-box main-timeline-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="title-box">
-						<h2>Haldi Ceremony</h2>
-						<h4><p>Let's begin this auspicious celebration with haldi , haldi - uptan is symbol of blessings and it purifies the heart and soul of the uniting souls...</p></h4>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<div class="event-inner">
-						<div class="event-img">
-							<img class="img-fluid" src="images\hh1.jpg" alt="" />
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<div class="event-inner">
-						<div class="event-img">
-							<img class="img-fluid" src="images\hh2.jpg" alt="" />
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<div class="event-inner">
-						<div class="event-img">
-							<img class="img-fluid" src="images\hh3.jpg" alt="" />
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- End Haldi -->
+<!-- Start Contact -->
+  <div id="contact" class="contact-box">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="title-box">
+            <h2>Give your feedback</h2>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p> -->
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-sm-12 col-xs-12">
+          <div class="contact-block">
+          <form id="contactForm">
+            <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
+                <div class="help-block with-errors"></div>
+              </div>                                 
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+                <div class="help-block with-errors"></div>
+              </div> 
+            </div>
+            <!-- <div class="col-md-12">
+              <div class="form-group">
+                <input type="text" placeholder="Locatoin" id="email" class="form-control" name="locatoin" required data-error="Pleae enter your location">
+                <div class="help-block with-errors"></div>
+              </div> 
+            </div> -->
+            <!-- <div class="col-md-12">
+              <div class="form-group">
+                <select class="custom-select d-block form-control" id="event" required data-error="Please select an item in the list.">
+                  <option disabled selected>I Am Attending*</option>
+                  <option value="1">All events</option>
+                  <option value="2">Wedding ceremony</option>
+                  <option value="3">Reception party</option>
+                </select>
+                <div class="help-block with-errors"></div>
+              </div> 
+            </div> -->
+            <div class="col-md-12">
+              <div class="form-group"> 
+                <textarea class="form-control" id="message" placeholder="Give feedback" rows="8" data-error="Write your message" required></textarea>
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="submit-button text-center">
+                <button class="btn btn-common" id="submit" type="submit">Send Message</button>
+                <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                <div class="clearfix"></div> 
+              </div>
+            </div>
+            </div>            
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- End Contact -->
 <!-- footer start -->
 <footer class="text-center text-lg-start bg-light text-muted">
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">    
